@@ -1,8 +1,8 @@
 package org.dimitri.ds.list;
 
 public interface List<E> {
-    int size = 10, length=0;
 
+    int DEFAULT_SIZE=10;
     /**
      * Add item to the end of list object
      * @param item item to be added to end of list
